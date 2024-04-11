@@ -1,0 +1,146 @@
+body {
+    background-image: url('bg.png');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+#attackbutton {
+    position: relative;
+    left: 20.5%;
+    top: 10%;
+
+    background-color: #4d4897;
+    font-size: 30px;
+    padding: 32px 48px;
+    height: 100px;
+    width: 170px;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    z-index: -1;
+}
+
+.button-panel {
+    background-color: #040314;
+    height: 300px;
+    width: 30%;
+
+    position: relative;
+    left: 68%;
+    top: 550px;
+
+    border-style: solid;
+    border-width: 7px;
+    border-color: #919191;
+
+    z-index: 1;
+}
+
+#defendbutton {
+    position: relative;
+    right: 39.8%;
+    top: 43.4%;
+
+    background-color: #4d4897;
+    font-size: 30px;
+    padding: 32px 48px;
+    height: 100px;
+    width: 170px;
+}
+
+#dialog {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    font-size: 16px;
+}
+
+.dialog-box {
+    background-color: #040314;
+    height: 300px;
+    width: 65%;
+
+    position: relative;
+    top: 236px;
+    left: 1%;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #919191;
+
+    z-index: 1;
+}
+
+#healbutton {
+    position: relative;
+    left: 20%;
+    top: 10%;
+
+    background-color: #4d4897;
+    font-size: 30px;
+    padding: 32px 48px;
+    height: 100px;
+    width: 170px;
+}
+
+
+.player1 {
+    image-rendering: pixelated;
+    position: relative;
+    right: 20%;
+    transform: scale(6);
+}
+
+#p1hp {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    font-size: 4px;
+
+    position: relative;
+    bottom: 2px;
+    text-align: center;
+
+    background-color: #040314;
+    margin: auto;
+    height: 5px;
+    width: 10px;
+}
+
+.player2 {
+    image-rendering: pixelated;
+    position: relative;
+    left: 20%;
+    top: 17px;
+    transform: scale(6);
+}
+
+#p2hp {
+    color: #ffffff;
+    font-family: "Lucida Console";
+    font-size: 4px;
+
+    position: relative;
+    bottom: 2px;
+    text-align: center;
+
+    background-color: #040314;
+    margin: auto;
+    height: 5px;
+    width: 10px;
+}
+
+#resetbutton {
+    position: relative;
+    left: 50.2%;
+    top: 10%;
+
+    background-color: #4d4897;
+    font-size: 30px;
+    padding: 32px 48px;
+    height: 100px;
+    width: 170px;
+}
