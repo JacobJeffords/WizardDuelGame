@@ -1,9 +1,23 @@
-body {
-    background-image: url('assets/bg.png');
+@mixin reset-box-model {
     margin: 0;
     padding: 0;
-    background-size: cover;
-}
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: {
+      image: url('assets/bg.png');
+      size: cover;
+    }
+    margin: 0;
+    padding: 0;
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+// Converted to Sass
 
 #attackbutton {
     position: relative;
